@@ -1,0 +1,6 @@
+.remove-comment {
+	float: right;
+	color: red;
+	cursor: pointer;
+	font-weight: 400;
+}

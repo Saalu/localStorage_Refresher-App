@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
@@ -15,15 +16,19 @@
         <div class="row ">
             <div class="face1 col-md-6">
                 <h2 class="mb-3">Enter Your Details</h2>
-            <form class="form-group">
-                <label class="label" for="">Name</label>
-                <input class="form-control" type="text" name="name"  id="name">
+            <form class="form-group" id='form'>
+                <label class="label" for="">Comment</label>
+                <input class="form-control" type="text" name="name"  id="input">
 
-                <input class="form-control btn-primary mt-4" type="submit" name="Submit" id="submit">
+                <input class="form-control btn-primary mt-4" type="submit" value="Save Comment" name="" id="submit">
             </form>
             </div>
+            <!-- Display feedback from INPUT -->
             <div class="face2 col-md-6">
                 <h2 class="mb-3 display-5">Employee Details</h2>
+                <div class="list">
+                    
+                </div>
                 <table class="table  table-borderless">
                     <tbody>
                         
